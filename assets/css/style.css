@@ -13,3 +13,48 @@ body{background-color:#f9f9f7;padding-top:100px}
 .ui.comments{max-width:100%;font-size:16px}
 .ui.menu .item:before{width:0}
 .links{position:fixed;bottom:0;left:0;}
+
+.containera_mall_main { width:1200px; height:275px; margin:auto; margin-top:15px; text-align:center; position:relative; overflow:hidden}
+.containera_mall_img { width:2000%;height:275px; position:absolute;left:0; top:0;}
+.containera_mall_box { float:left; width:190px; height:272px; margin:0 10px;text-align: center;}
+.containera_mall_box .containera_mall_a{text-decoration: none;}
+.containera_mall_main h5 { width:170px;  line-height:25px; padding-top:8px; overflow: hidden;white-space: nowrap;text-overflow: ellipsis;-o-text-overflow: ellipsis;-moz-binding: url('ellipsis.xml#ellipsis');color:#333;font-size:16px;}
+.containera_mall_main h3 { width:170px;line-height:20px;color:#666;font-size:14px;}
+.containera_mall_main h5,.containera_mall_main h3{margin:0 0 0 5px;}
+.containera_mall_boxa { width:181px; height:270px; border-top:#fbb236 solid 2px;border-bottom:#f4f4f4 solid 1px;border-left:#f4f4f4 solid 1px;border-right:#f4f4f4 solid 1px; background-color:#FFF; display:inline-block;}
+.containera_mall_boxb { width:181px; height:270px; border-top:#fbb236 solid 2px;border-bottom:#f4f4f4 solid 1px;border-left:#f4f4f4 solid 1px;border-right:#f4f4f4 solid 1px; background-color:#FFF; display:inline-block;}
+.containera_mall_boxc { width:181px; height:270px; border-top:#fbb236 solid 2px;border-bottom:#f4f4f4 solid 1px;border-left:#f4f4f4 solid 1px;border-right:#f4f4f4 solid 1px; background-color:#FFF; display:inline-block;}
+.containera_mall_boxd { width:181px; height:270px; border-top:#fbb236 solid 2px;border-bottom:#f4f4f4 solid 1px;border-left:#f4f4f4 solid 1px;border-right:#f4f4f4 solid 1px; background-color:#FFF; display:inline-block;}
+.containera_mall_boxe { width:181px; height:270px; border-top:#fbb236 solid 2px;border-bottom:#f4f4f4 solid 1px;border-left:#f4f4f4 solid 1px;border-right:#f4f4f4 solid 1px; background-color:#FFF; display:inline-block;}
+.containera_mall_button {width:225px; height:53px; margin:auto; background-color:#e8e8e8; text-align:center; margin-top:10px;border-radius:8px;}
+.containera_mall_button>a { display:block; width:230px; height:53px; color:#585858; font-size:16px; line-height:53px;}
+.containera_mall_button a:hover {text-decoration:underline}
+.containera_mall_butleft {width:35px; height:25px; font-size:18px; color:#3a3a3a; position:absolute; right:105px; top:17px; line-height:23px; text-align:center; cursor: pointer; border:#cccaca solid 1px;}
+.containera_mall_butleft:hover { background-color:#e2e1e1; color:#3a3a3a;}
+.containera_mall_butright {width:35px; height:25px; font-size:18px; color:#3a3a3a; position:absolute; right:69px; top:17px; line-height:23px; text-align:center; cursor: pointer; border-bottom:#cccaca solid 1px; border-top:#cccaca solid 1px;border-right:#cccaca solid 1px;}
+.containera_mall_buttons{ position:absolute; right:10px; top:20px;}
+.containera_mall_buttons>a{color:#ffd8da;font-size:16px;text-decoration: none;}
+.containera_mall_butright:hover { background-color:#e2e1e1; color:#3a3a3a;}
+.containera_mall_img>div:hover{border-top:#fbb236 solid 2px;border-bottom:#fbb236 solid 1px;border-left:#fbb236 solid 1px;border-right:#fbb236 solid 1px;}
+.containera_mall_img>div:first-child{margin-left:0;}
+
+.index_footer_mainb {width:830px;overflow: hidden;margin:0 auto;}
+.index_footer_mainb_logo {float:left; padding:35px 40px 0 35px}
+.site-info-nav {float:left; overflow:hidden}
+.site-info-nav ul { float:left; padding:0 42px 0 25px}
+.site-info-nav ul li {text-align:left}
+.site-info-nav ul li a {display:inline-block;}
+.site-info-nav ul li h3 { color:#666; padding-top:42px; padding-bottom:13px;font-size:16px;}
+.site-info-nav ul li h4 { color:#999; line-height:28px;font-size:12px;}
+.site-info-nav ul li a h4:hover {color:#d54848}
+
+.index_footer2 {width:100%; background-color:#f4f4f4; text-align:center;position: relative;}
+.index_footer2_txt {display:inline-block; font-size:14px; line-height:29px; color:#666;margin-right: 20px;}
+.index_footer2_txt a { color:#666;}
+.index_footer2_txt a:hover {color:#666;}
+/*底部-footer-icons*/
+.index_footer_icons a img{width: 89px;height: 34px;font-size: 0;}
+/* 站长工具 */
+body{position: relative;}
+#cnzz_stat_icon_1260947424 {display:block;position: absolute;bottom:0px; left:56%;}
+#cnzz_stat_icon_1260947424 a{color: #f4f4f4;}
