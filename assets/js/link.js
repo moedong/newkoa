@@ -3,13 +3,13 @@
  */
 
 var SDKBridge = function (ctr,data) {
-  var sdktoken = readCookie('sdktoken'),
-    userUID = readCookie('uid'),
-    that = this;
-  if(!sdktoken){
+  //var sdktoken = readCookie('sdktoken'),
+  //  userUID = readCookie('uid'),
+  var that = this;
+  //if(!sdktoken){
       //window.location.href = './index.html';
-      return;
-  }
+    //  return;
+ // }
   //缓存需要获取的用户信息账号
   this.person = {};
   //缓存需要获取的群组账号
@@ -22,8 +22,8 @@ var SDKBridge = function (ctr,data) {
     debug: true || { api: 'info', style: 'font-size:14px;color:blue;background-color:rgba(0,0,0,0.1)' },
         promise: true,
         appKey: CONFIG.appkey,
-        account: userUID,
-        token: sdktoken,
+        account: CONFIG.userUID,
+        token: CONFIG.sdktoken,
         // syncSessionUnread: true,
         //连接
         onconnect: onConnect.bind(this),

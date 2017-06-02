@@ -17,7 +17,7 @@ YX.fn.cloudMsg = function () {
  */
 YX.fn.showCloudMsg = function () {
     var that = this
-    this.$cloudMsgContainer.load('./cloudMsg.html', function() {
+    this.$cloudMsgContainer.load('./partials/cloudMsg.html', function() {
         that.$cloudMsgContainer.removeClass('hide')
         var id = that.crtSessionAccount,
             scene = that.crtSessionType,
