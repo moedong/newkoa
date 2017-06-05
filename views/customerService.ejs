@@ -11,13 +11,12 @@
   <link rel="stylesheet" href="./css/uiKit.css"/>
   <link rel="stylesheet" href="./css/CEmojiEngine.css"/>
   <link rel="stylesheet" href="./css/rangeslider.css"/>
-  <link rel="icon" href="images/icon.ico" type="image/x-icon"/>
 </head>
 <body>
   <div class="bad-network hide tc radius5px" id="errorNetwork">已与服务器断开，请检查网络连接</div>
   <div class="wrapper box-sizing">
     <div class="content">
-      <div class="left-panel radius5px" id="left-panel">
+      <div class="left-panel hide radius5px" id="left-panel">
         <div class="hide loading" id="loading"></div>
         <div class="title">
           <img src="" alt="" width="56" height="56" class="radius-circle avatar" id="userPic" /><span id="userName">&nbsp;</span>
@@ -119,7 +118,7 @@
           </div>
         </div>
       </div>
-      <div class="chatVernier" id="chatVernier"><span class="radius-circle hide"></span></div>
+      <div class="chatVernier hide" id="chatVernier"><span class="radius-circle hide"></span></div>
       <div class="right-panel hide radius5px" id="rightPanel"> <!-- 聊天面板 -->
         <div class="chat-box show-netcall-box" id="chatBox">
           <div class="title" id="chatTitle">
@@ -595,6 +594,11 @@
   <script src="./js/3rd/contextMenu/jquery.contextMenu.js"></script>
 
   <script src="./js/config.js"></script>
+  <script>
+    CONFIG.userUID="amo1";
+    CONFIG.sdktoken="myd136523";
+    CONFIG.talkTo="<%= talkTo.acount %>";
+  </script>
   <script src="./js/emoji.js"></script>
   <script src="./js/util.js?v=2"></script>
   <script src="./js/cache.js?v=2"></script>

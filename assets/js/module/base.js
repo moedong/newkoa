@@ -55,8 +55,13 @@ YX.fn.initBase = function () {
  * @see session.js 
  */
 YX.fn.initUI = function () {
+
+    
     this.buildSessions()
     this.showSysMsgCount()
+
+    this.mysdk.addFriend(CONFIG.talkTo,this.cbAddFriend2.bind(this))
+
 }
 /**
  * 初始化个人信息回调 显示左上角信息

@@ -16,6 +16,6 @@
         }
     };
     window.CONFIG = configMap[envir];
-    CONFIG.userUID="amo1";
-    CONFIG.sdktoken="myd136523";
+
+
 }())

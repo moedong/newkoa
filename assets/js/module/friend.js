@@ -122,6 +122,17 @@ YX.fn.cbAddFriend = function(error, params) {
     }
     
 }
+YX.fn.cbAddFriend2 = function(error, params) {
+    if(!error){
+        this.cache.addFriend(params.friend)
+        this.openChatBox(params.account,"p2p")   
+    }else{
+        this.$addFriendBox.find(".tip").html("该帐号不存在，请检查你输入的帐号是否正确")
+        this.$addFriendBox.attr('class',"m-dialog done")          
+    }
+    
+}
+
 YX.fn.cbGetUserInfo = function(err,data){
     if(err){
         alert(err)

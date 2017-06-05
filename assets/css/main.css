@@ -96,9 +96,9 @@ html, body {
 .wrapper {
     position: relative;
     overflow: visible;
-    min-width: 1000px;
+    min-width: 800px;
     min-height: 720px;
-    width: 1002px;
+    width: 800px;
     padding: 100px 0;
     margin: 0 auto;
     background: url(../images/logo_bg.png) no-repeat center;
@@ -237,7 +237,7 @@ html, body {
 }
 
 .right-panel {
-    margin-left: 292px;
+    margin-left:0;
     height: 620px;
     background-color: #fff;
     position:relative;
@@ -490,11 +490,11 @@ html, body {
     color: rgba(255,255,255, 0.4);
 }
 .cloud-msg-container,.team-info-container {
-    margin-left: 292px;
+    margin-left:0;
     height: 620px;
     background-color: #fff;
     position: absolute;
-    width: 710px;
+    width: 800px;
     top: 100px;
     z-index: 2;
     border-radius:5px;
